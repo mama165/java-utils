@@ -5,3 +5,8 @@ https://www.youtube.com/watch?v=-Tydziij7s4
 
 #Article about Immutable
 https://marcus-biel.com/immutables-in-java/?cn-reloaded=1
+
+
+Immutable means it doesn't change, period.
+ You don't update fields in an immutable objects because this capability isn't possible. 
+ If you create a copy, then each thread will create its own copy, so there is no synchronization issue.
