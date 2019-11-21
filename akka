@@ -1,3 +1,13 @@
 #--------------------------AKKA--------------------------
 
 https://blog.softwaremill.com/painlessly-passing-message-context-through-akka-streams-1615b11efc2c
+
+#What is a Source ?
+Entry point to processing in the akka-stream library.
+We can create an instance of this class from multiple sources.
+For example, we can use the single() method to create a Source from a single String.
+Or we can create a source from an Iterable of elements.
+#Example
+
+#Non blocking example
+https://akka.io/blog/2016/07/06/threading-and-concurrency-in-akka-streams-explained

@@ -1,0 +1,7 @@
+#--------------------------DATE--------------------------
+
+https://www.moesif.com/blog/technical/timestamp/manage-datetime-timestamp-timezones-in-api/
+
+#What format should I use ?
+ISO 8601 => yyyy-MM-dd'T'HH:mm:ssZ
+It is human readable and has a specified timezone
